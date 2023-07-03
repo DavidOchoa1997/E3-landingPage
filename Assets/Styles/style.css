@@ -4,21 +4,17 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Bitter', serif; ;
-    
 }
+    
 :root{
 --azure-web: #ecf8f8ff;
 --isabelline: #eee4e1ff;
 --almond: #e7d8c9ff;
 --pale-dogwood: #e6beaeff;
 --lion: #b2967dff;
-  
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap');
-
-
-
+  
 
 header{
     display: flex;
@@ -31,7 +27,6 @@ header{
     min-height:  28vh;
     position: sticky;
     width: 100%;
-
 }
 header img{
     width: 200px;
@@ -41,6 +36,7 @@ header img{
     mix-blend-mode: darken;
     padding: 8px;
 }
+
 nav>a{
     color: var(--isabelline);
     font-size: 32px;
@@ -59,7 +55,7 @@ a:hover{
 
     cursor: pointer;
     text-decoration: underline;
-}   
+}  
 
 
 #hero{
@@ -71,7 +67,8 @@ a:hover{
     gap: 2rem;
     min-height: 80vh;
     background-color: var(--isabelline);
-}
+}    
+
 .hero-info {
     width: 700px;
     height: 80%;
@@ -82,7 +79,6 @@ a:hover{
     gap: 30px
     ;
 }
-
 .hero-info h1{
     font-size: 60px;
     letter-spacing: 2px;
@@ -99,6 +95,7 @@ a:hover{
     justify-content:left;
     gap: 20px;
 }
+
 
 .hero-info-button a{
     text-decoration: none;
@@ -119,7 +116,7 @@ a:hover{
     height: 85%;
    
 }
-
+ 
 .hero-image img{
     width: 100%;
     padding: 10px;
@@ -141,7 +138,11 @@ a:hover{
     letter-spacing: 2px;
     
 }
-   
+ 
+
+
+
+  
     
 
 
